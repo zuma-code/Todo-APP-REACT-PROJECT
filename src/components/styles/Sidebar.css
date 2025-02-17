@@ -1,0 +1,29 @@
+/* src/components/styles/Sidebar.css */
+.sidebar {
+    width: 250px;
+    padding: 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  

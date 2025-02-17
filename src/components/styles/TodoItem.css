@@ -1,0 +1,38 @@
+/* src/components/styles/TodoItem.css */
+.todo-item {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .complete-btn, .delete-btn {
+    padding: 0.5rem;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #ffc400;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  .complete-btn:hover, .delete-btn:hover {
+    opacity: 0.5;
+  }
+  
